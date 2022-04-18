@@ -1,0 +1,88 @@
+/* *****************************************************************
+FOOTER
+***************************************************************** */
+
+.footer {
+  bottom: 0 !important  ;
+  margin-top: 80px;
+  padding: 1em 0;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: #000000;
+  text-align: left;
+}
+
+.menu_footer {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  margin: 0;
+}
+
+.menu_footer {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+}
+
+.menu_footer:hover {
+  pointer-events: all;
+}
+
+.label {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 1em;
+}
+
+.separator {
+  display: inline-block;
+  width: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  vertical-align: middle;
+  cursor: pointer;
+  position: relative;
+}
+
+.separator:before {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid #ffffff;
+  height: 1px;
+  width: 0%;
+  transition: width 0.25s ease;
+  transition-delay: 0.7s;
+}
+
+.footer .item {
+  position: relative;
+  display: inline-block;
+  margin-right: 30px;
+  top: 10px;
+  opacity: 0;
+  transition: opacity 0.5s ease, top 0.5s ease;
+  transition-delay: 0;
+}
+
+.footer span {
+  transition: color 0.5s ease;
+}
+
+.item:hover span {
+  color: #ff0000;
+}
+
+.item a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.menu_footer:hover .separator:before {
+  width: 100%;
+  transition-delay: 0s;
+}
+
+.menu_footer:hover .item {
+  opacity: 1;
+  top: 0px;
+}
