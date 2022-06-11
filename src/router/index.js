@@ -22,6 +22,26 @@ const routes = [
     component: () => import("../views/Compte.vue"),
   },
   {
+    path: "/commandes",
+    name: "Commandes",
+    component: () => import("../views/Commandes.vue"),
+  },
+  {
+    path: "/adresse",
+    name: "Adresse",
+    component: () => import("../views/Adresse.vue"),
+  },
+  {
+    path: "/connexion",
+    name: "Connexion",
+    component: () => import("../views/Login.vue"),
+  },
+  {
+    path: "/inscription",
+    name: "Inscription",
+    component: () => import("../views/Inscription.vue"),
+  },
+  {
     path: "/panier",
     name: "Panier",
     component: () => import("../views/Panier.vue"),

@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    <h1>Tous les produits</h1>
+    <h1 class="h1">Tous les produits</h1>
 
     <!-- search display -->
     <input

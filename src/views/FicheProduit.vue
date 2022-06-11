@@ -12,8 +12,8 @@ export default {
   name: 'Home',
   components: {
     TemplateFicheProduit,
-  }
-}
+  },
+};
 </script>
 
 <style scoped>

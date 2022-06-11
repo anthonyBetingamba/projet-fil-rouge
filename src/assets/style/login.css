@@ -1,0 +1,355 @@
+/* *****************************************************************
+LES 2 ONGLETS
+***************************************************************** */
+
+.main .container {
+  border: 0px;
+  margin-bottom: 3em;
+}
+
+.title {
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.onglet {
+  padding: 0 25px 10px;
+}
+
+.onglet_options {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.onglet_options .title {
+  float: left;
+  width: 50%;
+  padding: 20px 0 17px;
+}
+
+.onglet_options .title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.onglet_options .title.active {
+  border-bottom: 2px solid #b82330;
+}
+
+.layout-v2 .onglet_options .title,
+.layout-v2 .onglet_options .title a {
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.7;
+}
+
+/* *****************************************************************
+BOUTONS RESEAUX SOCIAUX
+***************************************************************** */
+
+.subtitle {
+  margin: 9% 0 5% 0;
+}
+
+.subtitle,
+p.title_form_email,
+h2.title_form_email {
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.connect_with {
+  font-size: calc(1.2rem + .7vw);
+  margin: 40px 0;
+}
+
+p.subtitle {
+  margin-top: 5%;
+}
+
+.options {
+  text-align: center;
+}
+
+#social-register-list {
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+}
+
+li.social-register {
+  width: 30%;
+  display: inline-block;
+}
+
+.social-link {
+  width: 100%;
+  float: left;
+  border: solid 2px #ddd;
+  color: #2d2d2d;
+}
+
+.icon {
+  background-size: 18px;
+}
+
+.options .social-links-container .social-link .connect.twitter .text span,
+.options .social-links-container .social-link .connect.facebook .text span,
+.options .social-links-container .social-link .connect.google .text span,
+.options .social-links-container .social-link .connect.apple .text span {
+  color: #2d2d2d;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+}
+
+.options .social-links-container .social-link .connect.facebook .text span,
+.options .social-links-container .social-link .connect.google .text span,
+.options .social-links-container .social-link .connect.apple .text span {
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin-left: 30px;
+}
+
+.connect.google .icon {
+  background-image: require("@/assets/img/svg/google.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  width: 35px;
+  height: 40px;
+  position: absolute;
+}
+
+.connect.apple .icon {
+  background-image: require("@/assets/img/svg/apple.svg");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  width: 35px;
+  height: 40px;
+  position: absolute;
+}
+
+.connect.facebook .icon {
+  background-image: require("@/assets/img/logo/facebook.png");
+  background-repeat: no-repeat;
+  background-position: 100% center;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+}
+
+/* *****************************************************************
+INSCRIPTION
+***************************************************************** */
+.form-register,
+.social-register {
+  padding-bottom: 2em;
+}
+
+.title_form_email {
+  margin: 40px 0 40px 0;
+}
+
+.form-register form {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.form fieldset {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  min-width: 100%;
+}
+
+.legend {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+.layout-v2 #content #main .container .form.social-register .field {
+  width: 100%;
+  padding: 0;
+}
+
+.field {
+  margin: 0 auto 19px;
+  text-align: left;
+}
+
+.field label:not(.checkbox),
+.birthday_label {
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.field label,
+.field legend {
+  line-height: 2;
+  color: #767676;
+  letter-spacing: 2px;
+}
+
+/* *****************************************************************
+DATE DE NAISSANCE   
+***************************************************************** */
+
+.layout-v2 #content #main .container .form.social-register .field {
+  width: 100%;
+  padding: 0;
+}
+
+.form .field .subfield {
+  width: 21%;
+  float: left;
+  margin-right: 4%;
+}
+
+.form .field input:not([type="checkbox"]),
+.form .field input.checkbox:not([type="checkbox"]),
+.form .field select.checkbox:not([type="checkbox"]),
+.form .field select {
+  width: 100%;
+  float: left;
+  border: 1px solid #767676;
+  font-size: 0.975em;
+  height: 2rem;
+}
+
+.form .field select {
+  height: 45px;
+}
+
+.form .field .subfield.month {
+  width: 50%;
+}
+
+.form .field .subfield.year {
+  margin-right: 0;
+}
+
+/* *****************************************************************
+BOUTON
+***************************************************************** */
+
+.submit input {
+  width: 100%;
+}
+
+.submit input {
+  height: 60px;
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  background: #ddd;
+  color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submit input:hover {
+  background: black;
+  color: #fff;
+}
+
+.submit {
+  margin-top: 3rem;
+}
+
+/* *****************************************************************
+INPUT
+***************************************************************** */
+
+fieldset {
+  border: 0;
+}
+
+#legend {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+.field {
+  padding: 0 18.5%;
+  margin: 0 auto 19px;
+  text-align: left;
+}
+
+.field label:not(.checkbox) {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.field label {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  margin: 0 3% 11px 0;
+  font-family: Tahoma, Geneva, sans-serif;
+  float: left;
+  color: #2d2d2d;
+}
+
+.field input:not(.checkbox) {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  line-height: 1.7;
+}
+
+.field input:not([type="checkbox"]) {
+  width: 100%;
+  float: left;
+  border: 1px solid #767676;
+}
+
+.clear {
+  clear: both;
+}
+
+.form .submit {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* *****************************************************************
+BOUTON
+***************************************************************** */
+
+.forgotten-password {
+  text-align: center;
+  margin-top: 1%;
+}
+
+.welcome {
+  margin-top: 3%;
+  font-family: futura-pt, Tahoma, Geneva, Verdana, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  text-align: center;
+}

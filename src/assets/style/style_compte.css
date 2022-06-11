@@ -1,0 +1,200 @@
+.main {
+  margin: 0 5%;
+}
+
+/* *****************************************************************
+
+COLONNNE DE GAUCHE
+
+***************************************************************** */
+
+.col_left {
+  width: calc(100% * 4 / 12);
+  display: block;
+}
+
+.col_header {
+  float: left;
+  padding-left: 8px;
+  margin-top: 5%;
+}
+
+.identity {
+  background-color: #eee;
+  padding: calc(7 * 4px) calc(4 * 4px) calc(7 * 4px) 0;
+  margin-bottom: 5%;
+}
+
+.div_identity {
+  padding: 0 0 0 calc(3 * 4px);
+  word-wrap: break-word;
+  font-size: 1.8rem;
+}
+
+.name_identity {
+  margin: auto;
+  max-width: 550px;
+}
+
+.name {
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  line-height: 2.4rem;
+  padding-top: 6px;
+  word-wrap: break-word;
+}
+
+.nav_left {
+  background-color: #eee;
+  list-style: none;
+}
+
+.nav_item {
+  position: relative;
+}
+
+.nav_item a {
+  display: block;
+  line-height: 2.4rem;
+  padding: calc(4 * 4px) calc(5 * 4px) calc(4 * 4px) 68px;
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+.nav_item a:hover, .nav_item a:active {
+  color: inherit !important;
+  text-decoration: underline;
+}
+
+.icon_nav {
+  left: 0;
+  line-height: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.label_form {
+  float: none;
+  font-size: 1rem;
+}
+
+/* *****************************************************************
+
+COLONNNE DE DROITE
+
+
+***************************************************************** */
+
+.col_title {
+  width: calc(100% * 8 / 12);
+}
+
+.col_right_title {
+  padding: calc(8 * 4px) calc(8 * 4px);
+  text-align: left;
+  background-color: #eee;
+  position: relative;
+}
+
+.icon_page {
+  width: 30px;
+}
+
+.title_page {
+  font-size: 2rem;
+  line-height: 4rem;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form_conatiner {
+  background-color: #eee;
+}
+
+.form {
+  padding-left: calc(8 * 4px);
+  padding-bottom: calc(8 * 8px);
+}
+
+.label_form {
+  display: block;
+  max-width: 60%;
+}
+
+.label_form_span {
+  display: inline-block;
+  color: #777;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+  padding-bottom: calc(3 * 4px);
+}
+
+.span_input {
+  display: flex;
+}
+
+.input {
+  border-radius: 0;
+  border: 1px solid #777;
+  flex: 1 1 auto;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  padding: 10px calc(4 * 4px);
+}
+
+.margin_label {
+  margin-top: calc(8 * 4px);
+  border: 0;
+  padding-left: 0;
+}
+
+.select_naissance,
+.year {
+  display: inline-block;
+}
+
+.select_naissance_label {
+  position: absolute;
+}
+
+.select {
+  position: relative;
+}
+
+.month {
+  margin-left: 9px;
+  width: 152px;
+  display: inline-block;
+}
+
+#datepicker_month_select,
+#datepicker_day_select,
+#datepicker_year_select {
+  padding: 3px;
+}
+
+.btn_save {
+  padding-bottom: calc(8 * 4px);
+  padding-left: calc(8 * 4px);
+}
+
+.button {
+  background: #ddd;
+  color: #fff;
+  line-height: 2.4rem;
+  padding: 7px;
+  width: 100%;
+  border: 0;
+  font-weight: bold;
+  max-width: 330px;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background: black;
+  color: #fff;
+}

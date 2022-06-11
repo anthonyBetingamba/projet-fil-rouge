@@ -1,24 +1,19 @@
 <template>
-    <div class="compte">
-        <TemplateCompte />
-    </div>
+  <div class="compte">
+    <TemplateCompte />
+  </div>
 </template>
 
 <script>
-import TemplateCompte from '@/components/TemplateCompte.vue'
+import TemplateCompte from "@/components/TemplateCompte.vue";
 
 export default {
-  name: 'Compte',
+  name: "Compte",
   components: {
-    TemplateCompte
-  }
-}
+    TemplateCompte,
+  },
+};
 </script>
 
 <style scoped>
-
-.compte {
-  height: 110vh;
-}
-
 </style>

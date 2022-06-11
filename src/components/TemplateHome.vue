@@ -10,7 +10,7 @@
   </div>
 
   <div class="home-container">
-    <h1>Top des ventes</h1>
+    <h1 class="h1">Top des ventes</h1>
 
     <!-- cards display -->
     <div class="card-cart-container">
